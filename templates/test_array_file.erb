@@ -1,0 +1,5 @@
+search <%= @domains -%>
+
+<% @nameservers.each do |entry| -%>
+nameserver <%= entry %>
+<% end -%>
